@@ -1,0 +1,173 @@
+EESchema Schematic File Version 4
+LIBS:kicon19-blinky-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20PU U1
+U 1 1 5CA4ECC4
+P 5800 3450
+F 0 "U1" H 5271 3496 50  0000 R CNN
+F 1 "ATtiny85-20PU" H 5271 3405 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5800 3450 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 5800 3450 50  0001 C CNN
+	1    5800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5CA4F5DB
+P 3150 3500
+F 0 "BT1" H 3268 3596 50  0000 L CNN
+F 1 "Battery_Cell" H 3268 3505 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_103_1x20mm" V 3150 3560 50  0001 C CNN
+F 3 "~" V 3150 3560 50  0001 C CNN
+	1    3150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 5CA4FEFB
+P 3650 3150
+F 0 "SW1" H 3650 3435 50  0000 C CNN
+F 1 "SW_SPDT" H 3650 3344 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 3650 3150 50  0001 C CNN
+F 3 "~" H 3650 3150 50  0001 C CNN
+	1    3650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CA54497
+P 7550 3500
+F 0 "R3" H 7620 3546 50  0000 L CNN
+F 1 "100" H 7620 3455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7480 3500 50  0001 C CNN
+F 3 "~" H 7550 3500 50  0001 C CNN
+	1    7550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5CA549B6
+P 7200 3900
+F 0 "D1" V 7239 3783 50  0000 R CNN
+F 1 "LED" V 7148 3783 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 7200 3900 50  0001 C CNN
+F 3 "~" H 7200 3900 50  0001 C CNN
+	1    7200 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5CA551CC
+P 7550 3900
+F 0 "D2" V 7589 3783 50  0000 R CNN
+F 1 "LED" V 7498 3783 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 7550 3900 50  0001 C CNN
+F 3 "~" H 7550 3900 50  0001 C CNN
+	1    7550 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CA5572E
+P 6700 3450
+F 0 "R1" H 6770 3496 50  0000 L CNN
+F 1 "10k" H 6770 3405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6630 3450 50  0001 C CNN
+F 3 "~" H 6700 3450 50  0001 C CNN
+	1    6700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CA53DDE
+P 7200 3500
+F 0 "R2" H 7270 3546 50  0000 L CNN
+F 1 "100" H 7270 3455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7130 3500 50  0001 C CNN
+F 3 "~" H 7200 3500 50  0001 C CNN
+	1    7200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3300 3150 3150
+Wire Wire Line
+	3150 3150 3450 3150
+Wire Wire Line
+	6700 3650 6400 3650
+Wire Wire Line
+	3850 3050 4250 3050
+Wire Wire Line
+	4250 3050 4250 2750
+Wire Wire Line
+	4250 2750 5800 2750
+Wire Wire Line
+	4250 3050 4250 3300
+Connection ~ 4250 3050
+Wire Wire Line
+	6400 3250 7200 3250
+Wire Wire Line
+	7200 3250 7200 3350
+Wire Wire Line
+	6400 3150 7550 3150
+Wire Wire Line
+	7550 3150 7550 3350
+Wire Wire Line
+	6700 2750 6700 3300
+Wire Wire Line
+	6700 3600 6700 3650
+Wire Wire Line
+	7200 3650 7200 3750
+Wire Wire Line
+	7550 3650 7550 3750
+Wire Wire Line
+	7550 4050 7550 4150
+Wire Wire Line
+	3150 4150 3150 3600
+Wire Wire Line
+	4250 3800 4250 4150
+Connection ~ 4250 4150
+Wire Wire Line
+	4250 4150 3150 4150
+Wire Wire Line
+	5800 4050 5800 4150
+Connection ~ 5800 4150
+Wire Wire Line
+	5800 4150 4250 4150
+Wire Wire Line
+	7550 4150 7200 4150
+Wire Wire Line
+	7200 4050 7200 4150
+Connection ~ 7200 4150
+Wire Wire Line
+	7200 4150 5800 4150
+Wire Wire Line
+	5800 2850 5800 2750
+Connection ~ 5800 2750
+Wire Wire Line
+	5800 2750 6700 2750
+$Comp
+L pspice:CAP C1
+U 1 1 5CA51BBA
+P 4250 3550
+F 0 "C1" H 4428 3596 50  0000 L CNN
+F 1 "10uF" H 4428 3505 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4250 3550 50  0001 C CNN
+F 3 "~" H 4250 3550 50  0001 C CNN
+	1    4250 3550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
