@@ -1,0 +1,10 @@
+Part,Reference, Quantity, Value, MPN,DK Part No.,Part Page
+Battery Holder,BT1,1,,103,36-103-ND,https://www.digikey.com/product-detail/en/keystone-electronics/103/36-103-ND/331620
+Battery,BT1,1,,,P189-ND,https://www.digikey.com/product-detail/en/panasonic-bsg/CR2032/P189-ND/31939
+Switch,SW1,1,,OS102011MS2QN1,CKN9565-ND,https://www.digikey.com/product-detail/en/c-k/OS102011MS2QN1/CKN9565-ND/411602
+Capacitor,C1,1,10 uF,C324C106K3R5TA,399-13950-ND,https://www.digikey.com/product-detail/en/kemet/C324C106K3R5TA/399-13950-ND/6562361
+DIP Socket,U1,1,,A 08-LC-TT,AE9986-ND,https://www.digikey.com/product-detail/en/assmann-wsw-components/A-08-LC-TT/AE9986-ND/821740
+ATtiny85,U1,1,,ATTINY85-20PU,ATTINY85-20PU-ND,https://www.digikey.com/product-detail/en/microchip-technology/ATTINY85-20PU/ATTINY85-20PU-ND/735469
+Resistor,R1,1,10k,CF14JT10K0,CF14JT10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374
+Resistor,R2 R3,2,100,CF14JT100R,CF14JT100RCT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT100R/CF14JT100RCT-ND/1830327
+LED,D1 D2,2,RED,WP7113ID,754-1264-ND,https://www.digikey.com/product-detail/en/kingbright/WP7113ID/754-1264-ND/1747663
